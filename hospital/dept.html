@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Department</title>
+    <style>
+        div {
+            text-align:center;
+        }
+        fieldset {
+            background-color:lightgoldenrodyellow;
+            margin-left: 125px;
+            margin-right: 125px;
+        }
+        h3 {
+            align:left;
+            margin-left:250px;
+        }
+        
+    </style>
+</head>
+
+<body style="background-color:plum;">
+    <h2 align="center"> ADD A NEW DEPARTMENT</h2>
+    <h3><a href="home.html">Home</a></h3>
+    <fieldset>
+        <form action="welcome.html">
+            <div>
+                <br>
+                <label for="dname">
+                    Department Name: <input type="text" name="dname" id="dname" required>
+                </label> <br><br>
+                <label for="ddesc">
+                    Department Description: <br>
+                    <textarea name="ddesc" id="ddesc" cols="40" rows="10" required></textarea>
+                </label><br><br>
+                <label for="noofdocs">
+                    No. Of Doctors: <input type="text" name="noofdocs" id="noofdocs" required>
+                </label><br><br>
+                <label for="noofgenrooms">
+                    No. Of General Rooms : <input type="text" name="noofgenrooms" id="noofgenrooms" required>
+                </label><br><br>
+                <label for="noofacrooms">
+                    No. Of AC Rooms : <input type="text" name="noofacrooms" id="noofacrooms" required>
+                </label><br><br>
+                <label for="noofnonacrooms">
+                    No. Of Non-AC Rooms : <input type="text" name="noofnonacrooms" id="noofnonacrooms" required>
+                </label><br><br>
+                <label for="nooficu">
+                    No. Of ICU's : <input type="text" name="nooficu" id="nooficu" required>
+                </label><br><br>
+
+                <label for="costgen">
+                    Cost Of General Room : <input type="text" name="costgen" id="costgen" required>
+                </label><br><br>
+                <label for="costac">
+                    Cost Of AC Room : <input type="text" name="costac" id="costac" required>
+                </label><br><br>
+                <label for="costnonac">
+                    Cost Of Non-AC Room : <input type="text" name="costnonac" id="costnonac" required>
+                </label><br><br>
+                <label for="costicu">
+                    Cost Of ICU : <input type="text" name="costicu" id="costicu" required>
+                </label><br><br>
+                
+                
+                <input type="submit" name="submit" value="Submit"> &nbsp;&nbsp;
+                <input type="reset" name="reset" value="Reset"><br><br>
+                <input type="button" value="Save my Response" onClick="window.print()">
+                <br><br>
+            </div>
+        </form>
+    </fieldset>
+    <br><br><br><br><br>
+</body>
+</html>

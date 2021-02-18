@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor</title>
+    <style>
+        div {
+            text-align:center;
+        }
+        fieldset {
+            background-color: paleturquoise;
+            margin-left: 125px;
+            margin-right: 125px;
+        }
+        h3 {
+            align:left;
+            margin-left:250px;
+        }
+        
+    </style>
+</head>
+<body style="background-color: antiquewhite;">
+    <h2 align="center"> REGISTER FOR A NEW DOCTOR</h2>
+    <h3><a href="home.html">Home</a></h3>
+    <fieldset>
+        <form action="welcome.html">
+            <div>
+                <br>
+                <label for="fname">
+                    First Name: <input type="text" name="fname" id="fname" required>
+                </label> <br><br>
+                <label for="mname">
+                    Middle Name: <input type="text" name="mname" id="mname">
+                </label><br><br>
+                <label for="lname">
+                    Last Name: <input type="text" name="lname" id="lname" required>
+                </label><br><br>
+                <label for="regno">
+                    Registration No. : <input type="text" name="regno" id="regno" required>
+                </label><br><br>
+                <label for="dob">
+                    Date Of Birth : <input type="date" name="dob" id="dob" required>
+                </label><br><br>
+                <label for="gender">
+                    Gender :
+                </label>
+                <input type="radio" name="gender" value="male" required> Male &nbsp;&nbsp;
+                <input type="radio" name="gender" value="female"> Female &nbsp;&nbsp;
+                <input type="radio" name="gender" value="other"> Other &nbsp;&nbsp;
+                <br><br>
+                <label for="email">
+                    Email : <input type="text" name="email" id="email" required>
+                </label><br><br>
+                <label for="specialization">
+                    Specialization : <input type="text" name="specialization" id="specialization" required>
+                </label><br><br>
+                <label for="qualification">
+                    Qualification : <input type="text" name="qualification" id="qualification" required>
+                </label><br><br>
+                <label for="contact">
+                    Contact No. : <input type="text" name="contact" id="contact" required>
+                </label><br><br>
+                <label for="address">
+                    Address : <br>
+                    <textarea name="address" id="address" cols="30" rows="10"></textarea>
+                </label><br><br>
+                <label for="visitingtime">
+                    Visiting Time :
+                    <input type="checkbox" name="visitingtime" value="morning"> Morning &nbsp;&nbsp;
+                    <input type="checkbox" name="visitingtime" value="afternoon"> Afternoon &nbsp;&nbsp;
+                    <input type="checkbox" name="visitingtime" value="evening"> Evening
+                </label><br><br>
+                <label for="visitingdays">
+                    Visiting Days : <br>
+                    <input type="checkbox" name="visitinhdays" value="monday"> Monday <br>
+                    <input type="checkbox" name="visitinhdays" value="tuesday"> Tuesday <br>
+                    <input type="checkbox" name="visitinhdays" value="wednesdayday"> Wednesday <br>
+                    <input type="checkbox" name="visitinhdays" value="thursday"> Thursday <br>
+                    <input type="checkbox" name="visitinhdays" value="friday"> Friday <br>
+                    <input type="checkbox" name="visitinhdays" value="saturday"> Saturday <br>
+                    <input type="checkbox" name="visitinhdays" value="sunday"> Sunday <br>
+                </label><br><br>
+                <label for="patientsperday">
+                    No.Of Patients per Day : <input type="text" name="noofpatients" id="patientsperday" required>
+                </label><br><br>
+                <label for="deptno">
+                    Department No. : <input type="text" name="deptno" id="deptno" required>
+                </label><br><br><br>
+                <input type="submit" name="submit" value="Submit"> &nbsp;&nbsp;
+                <input type="reset" name="reset" value="Reset"><br><br>
+                <input type="button" value="Save my Response" onClick="window.print()">
+                <br><br>
+            </div>
+        </form>
+    </fieldset>
+    <br><br><br><br><br>
+</body>
+</html>
